@@ -4,14 +4,12 @@
     margin: auto;
 }
 #mainMenuButtons {
-    margin: auto;
+    margin-left: auto;
     width: 500px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     resize: none;
-    font-family: upheavel;
-    font-size: 25px;
 }
 /*Classes*/
 .button1 {
@@ -20,6 +18,8 @@
     border-width:5px;
     border-radius:5px;
     background-color:lightgrey;
+    font-family: upheavel;
+    font-size: 25px;
 }
 /*@s*/
 @font-face {
@@ -31,6 +31,16 @@
     src: url(Fonts/upheavtt.ttf);
 }
 /*HTML*/
-body {
+h1 {
     font-family:QuintReg;
+}
+h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a {
+    text-decoration: none;
+    color:black;
 }
