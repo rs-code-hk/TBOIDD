@@ -21,6 +21,17 @@
     font-family: upheavel;
     font-size: 25px;
 }
+.item {
+    width: 400px;
+    background-color:burlywood;
+}
+.itemList {
+
+}
+.flavourText {
+    color:darkslategrey;
+    font-style:italic;
+}
 /*@s*/
 @font-face {
     font-family: QuintReg;
@@ -35,6 +46,9 @@ h1 {
     font-family:QuintReg;
 }
 h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h5 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 p {
